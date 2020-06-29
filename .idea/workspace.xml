@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8d9ea673-c435-4ee8-8fdf-91e10f453189" name="Default Changelist" comment="" />
+    <list default="true" id="8d9ea673-c435-4ee8-8fdf-91e10f453189" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recommender/DataLoader/src/main/scala/com/pcy/recommender/DataLoader.scala" beforeDir="false" afterPath="$PROJECT_DIR$/recommender/DataLoader/src/main/scala/com/pcy/recommender/DataLoader.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recommender/StatisticsRecommender/src/main/scala/com/pcy/statistics/StatisticsRecommender.scala" beforeDir="false" afterPath="$PROJECT_DIR$/recommender/StatisticsRecommender/src/main/scala/com/pcy/statistics/StatisticsRecommender.scala" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +78,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.StatisticsRecommender">
     <configuration name="DataLoader" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.pcy.recommender.DataLoader" />
       <module name="DataLoader" />
@@ -88,8 +92,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StatisticsRecommender" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.pcy.statistics.StatisticsRecommender" />
+      <module name="StatisticsRecommender" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.pcy.statistics.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StatisticsRecommender" />
         <item itemvalue="Application.DataLoader" />
       </list>
     </recent_temporary>
@@ -107,7 +125,7 @@
       <workItem from="1593328772790" duration="4533000" />
       <workItem from="1593340371160" duration="5739000" />
       <workItem from="1593364043720" duration="858000" />
-      <workItem from="1593398573476" duration="1926000" />
+      <workItem from="1593398573476" duration="5842000" />
     </task>
     <servers />
   </component>

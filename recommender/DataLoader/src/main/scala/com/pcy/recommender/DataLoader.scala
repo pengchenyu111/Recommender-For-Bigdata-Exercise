@@ -94,7 +94,7 @@ object DataLoader {
     //存入MongoDB
     storeDataInMongoDB(productDF, ratingDF)
 
-    //spark.stop()
+    spark.stop()
   }
 
   def storeDataInMongoDB(productDF: DataFrame, ratingDF: DataFrame)(implicit mongoConfig: MongoConfig): Unit ={
