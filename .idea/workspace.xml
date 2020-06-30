@@ -2,9 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8d9ea673-c435-4ee8-8fdf-91e10f453189" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/recommender/OfflineRecommender/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recommender/OfflineRecommender/src/main/scala/com/pcy/offline/ALSTrainer.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recommender/OfflineRecommender/src/main/scala/com/pcy/offline/OfflineRecommender.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/scala_compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/scala_compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommender/DataLoader/src/main/scala/com/pcy/recommender/DataLoader.scala" beforeDir="false" afterPath="$PROJECT_DIR$/recommender/DataLoader/src/main/scala/com/pcy/recommender/DataLoader.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommender/StatisticsRecommender/src/main/scala/com/pcy/statistics/StatisticsRecommender.scala" beforeDir="false" afterPath="$PROJECT_DIR$/recommender/StatisticsRecommender/src/main/scala/com/pcy/statistics/StatisticsRecommender.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recommender/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/recommender/pom.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -43,12 +47,14 @@
     <option name="version" value="1" />
   </component>
   <component name="ProjectId" id="1dwGUqgpJTiLs9C4PfUBI9x5DZO" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/recommender/StatisticsRecommender/src/main/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/recommender/OfflineRecommender/src/main/resources" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -62,6 +68,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\MyOwnCodes\IJIDEAJAVA\ECommerceRecommendSystem\recommender\OfflineRecommender\src\main\resources" />
       <recent name="D:\MyOwnCodes\IJIDEAJAVA\ECommerceRecommendSystem\recommender\StatisticsRecommender\src\main\resources" />
       <recent name="D:\MyOwnCodes\IJIDEAJAVA\ECommerceRecommendSystem\recommender\DataLoader\src\main\resources" />
     </key>
@@ -78,13 +85,39 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.StatisticsRecommender">
+  <component name="RunManager" selected="Application.ALSTrainer">
+    <configuration name="ALSTrainer" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.pcy.offline.ALSTrainer" />
+      <module name="OfflineRecommender" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.pcy.offline.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DataLoader" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.pcy.recommender.DataLoader" />
       <module name="DataLoader" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.pcy.recommender.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OfflineRecommender" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.pcy.offline.OfflineRecommender" />
+      <module name="OfflineRecommender" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.pcy.offline.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -107,6 +140,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ALSTrainer" />
+        <item itemvalue="Application.OfflineRecommender" />
         <item itemvalue="Application.StatisticsRecommender" />
         <item itemvalue="Application.DataLoader" />
       </list>
@@ -125,7 +160,8 @@
       <workItem from="1593328772790" duration="4533000" />
       <workItem from="1593340371160" duration="5739000" />
       <workItem from="1593364043720" duration="858000" />
-      <workItem from="1593398573476" duration="5842000" />
+      <workItem from="1593398573476" duration="11192000" />
+      <workItem from="1593478991517" duration="2375000" />
     </task>
     <servers />
   </component>
@@ -137,7 +173,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
