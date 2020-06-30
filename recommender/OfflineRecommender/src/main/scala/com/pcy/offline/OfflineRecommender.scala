@@ -68,7 +68,7 @@ object OfflineRecommender {
     //1.训练隐语义模型
     val trainData = ratingRDD.map(x => Rating(x._1, x._2, x._3))
     // rank 是模型中隐语义因子的个数, iterations 是迭代的次数, lambda 是ALS的正则化参
-    val (rank,iterations,lambda) = (50, 5, 0.01) // 调用ALS算法训练隐语义模型
+    val (rank,iterations,lambda) = (5, 10, 0.01) // 调用ALS算法训练隐语义模型
     val model = ALS.train(trainData, rank, iterations, lambda)
 
     //2.获得用户评分矩阵，得到用户的推荐列表
@@ -101,7 +101,7 @@ object OfflineRecommender {
           val simScore = this.consinSim(a._2, b._2) // 求余弦相似度
           (a._1, (b._1, simScore))
       }
-      .filter(_._2._2 > 0.6)
+      .filter(_._2._2 > 0.4)
       .groupByKey()
       .map{
         case (productId, items) =>

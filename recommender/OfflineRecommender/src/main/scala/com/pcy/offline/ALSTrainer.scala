@@ -59,7 +59,7 @@ object ALSTrainer {
   // 输出最终的最优参数
   def adjustALSParams(trainData:RDD[Rating], testData:RDD[Rating]): Unit ={
     // 这里指定迭代次数为5，rank和lambda在几个值中选取调整
-    val result = for(rank <- Array(100, 200, 250); lambda <- Array(1, 0.1, 0.01, 0.001))
+    val result = for(rank <- Array(5, 10, 20, 50); lambda <- Array(1, 0.1, 0.01))
       yield {
         val model = ALS.train(trainData, rank, 5, lambda)
         val rmse = getRMSE(model, testData)
