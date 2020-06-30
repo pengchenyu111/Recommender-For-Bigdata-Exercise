@@ -2,96 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8d9ea673-c435-4ee8-8fdf-91e10f453189" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Spring_5_2_3_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/businessServer/businessServer.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/businessServer/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/businessServer/src/main/java/com/atguigu/business/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/businessServer/src/main/java/com/atguigu/business/model/domain/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/businessServer/src/main/java/com/atguigu/business/model/domain/Rating.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/businessServer/src/main/java/com/atguigu/business/model/domain/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/businessServer/src/main/java/com/atguigu/business/model/recom/Recommendation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/businessServer/src/main/java/com/atguigu/business/model/request/ContentBasedRecommendationRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/businessServer/src/main/java/com/atguigu/business/model/request/HotRecommendationRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/businessServer/src/main/java/com/atguigu/business/model/request/ItemCFRecommendationRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/businessServer/src/main/java/com/atguigu/business/model/request/LoginUserRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/businessServer/src/main/java/com/atguigu/business/model/request/ProductRatingRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/businessServer/src/main/java/com/atguigu/business/model/request/ProductRecommendationRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/businessServer/src/main/java/com/atguigu/business/model/request/RateMoreRecommendationRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/businessServer/src/main/java/com/atguigu/business/model/request/RegisterUserRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/businessServer/src/main/java/com/atguigu/business/model/request/UserRecommendationRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/businessServer/src/main/java/com/atguigu/business/package-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/businessServer/src/main/java/com/atguigu/business/rest/ProductRestApi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/businessServer/src/main/java/com/atguigu/business/rest/UserRestApi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/businessServer/src/main/java/com/atguigu/business/service/ProductService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/businessServer/src/main/java/com/atguigu/business/service/RatingService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/businessServer/src/main/java/com/atguigu/business/service/RecommenderService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/businessServer/src/main/java/com/atguigu/business/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/businessServer/src/main/java/com/atguigu/business/utils/Configure.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/businessServer/src/main/java/com/atguigu/business/utils/Constant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/businessServer/src/main/resources/application.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/businessServer/src/main/resources/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/businessServer/src/main/resources/log4j2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/businessServer/src/main/resources/recommend.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/businessServer/src/main/webapp/WEB-INF/application-servlet.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/businessServer/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/businessServer/src/main/webapp/assets/fonts.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/businessServer/src/main/webapp/assets/fonts/demo-files/demo.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/businessServer/src/main/webapp/assets/fonts/demo-files/demo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/businessServer/src/main/webapp/assets/fonts/demo.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/businessServer/src/main/webapp/assets/fonts/icomoon.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/businessServer/src/main/webapp/assets/fonts/icomoon.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/businessServer/src/main/webapp/assets/fonts/icomoon.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/businessServer/src/main/webapp/assets/fonts/icomoon.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/businessServer/src/main/webapp/assets/logo-white.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/businessServer/src/main/webapp/assets/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/businessServer/src/main/webapp/assets/sgg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/businessServer/src/main/webapp/assets/stars.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/businessServer/src/main/webapp/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/businessServer/src/main/webapp/glyphicons-halflings-regular.448c34a56d699c29117a.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/businessServer/src/main/webapp/glyphicons-halflings-regular.89889688147bd7575d63.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/businessServer/src/main/webapp/glyphicons-halflings-regular.e18bbf611f2a2e43afc0.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/businessServer/src/main/webapp/glyphicons-halflings-regular.f4769f9bdb7466be6508.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/businessServer/src/main/webapp/glyphicons-halflings-regular.fa2772327f55d8198301.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/businessServer/src/main/webapp/icomoon.0a75ccae458aa5a90871.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/businessServer/src/main/webapp/icomoon.25e7839e4ae2737001b8.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/businessServer/src/main/webapp/icomoon.d50bc6cbfbd940af3c8b.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/businessServer/src/main/webapp/icomoon.d9033dd8aa810bff2e29.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/businessServer/src/main/webapp/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/businessServer/src/main/webapp/inline.bundle.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/businessServer/src/main/webapp/inline.bundle.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/businessServer/src/main/webapp/main.bundle.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/businessServer/src/main/webapp/main.bundle.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/businessServer/src/main/webapp/polyfills.bundle.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/businessServer/src/main/webapp/polyfills.bundle.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/businessServer/src/main/webapp/scripts.bundle.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/businessServer/src/main/webapp/scripts.bundle.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/businessServer/src/main/webapp/styles.bundle.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/businessServer/src/main/webapp/styles.bundle.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/businessServer/src/main/webapp/vendor.bundle.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/businessServer/src/main/webapp/vendor.bundle.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/businessServer/target/classes/application.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/businessServer/target/classes/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/businessServer/target/classes/log4j2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/businessServer/target/classes/recommend.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/businessServer/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/businessServer/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/businessServer/target/tomcat/conf/logging.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/businessServer/target/tomcat/conf/tomcat-users.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/businessServer/target/tomcat/conf/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/businessServer/target/tomcat/logs/access_log.2019-04-28" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/businessServer/target/tomcat/logs/access_log.2019-04-29" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/recommender/KafkaStreaming/KafkaStreaming.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/recommender/KafkaStreaming/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/recommender/KafkaStreaming/src/main/java/com/pcy/kafkastream/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/recommender/KafkaStreaming/src/main/java/com/pcy/kafkastream/LogProcessor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/recommender/KafkaStreaming/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recommender/ContentRecommender/ContentRecommender.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recommender/ContentRecommender/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recommender/ContentRecommender/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recommender/ContentRecommender/src/main/scala/com/pcy/content/ContentRecommender.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/scala_compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/scala_compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommender/OfflineRecommender/src/main/scala/com/pcy/offline/ALSTrainer.scala" beforeDir="false" afterPath="$PROJECT_DIR$/recommender/OfflineRecommender/src/main/scala/com/pcy/offline/ALSTrainer.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommender/OfflineRecommender/src/main/scala/com/pcy/offline/OfflineRecommender.scala" beforeDir="false" afterPath="$PROJECT_DIR$/recommender/OfflineRecommender/src/main/scala/com/pcy/offline/OfflineRecommender.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommender/OnlineRecommender/src/main/scala/com/pcy/online/OnlineRecommender.scala" beforeDir="false" afterPath="$PROJECT_DIR$/recommender/OnlineRecommender/src/main/scala/com/pcy/online/OnlineRecommender.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/businessServer/target/tomcat/logs/access_log.2020-06-30" beforeDir="false" afterPath="$PROJECT_DIR$/businessServer/target/tomcat/logs/access_log.2020-06-30" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/recommender/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/recommender/pom.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -146,7 +64,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/recommender/ContentRecommender/src/main/resources" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -160,11 +78,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\MyOwnCodes\IJIDEAJAVA\ECommerceRecommendSystem\recommender\ContentRecommender\src\main\resources" />
       <recent name="D:\MyOwnCodes\IJIDEAJAVA\ECommerceRecommendSystem" />
       <recent name="D:\MyOwnCodes\IJIDEAJAVA\ECommerceRecommendSystem\recommender\KafkaStreaming\src\main\resources" />
       <recent name="D:\MyOwnCodes\IJIDEAJAVA\ECommerceRecommendSystem\recommender\OnlineRecommender\src\main\resources" />
       <recent name="D:\MyOwnCodes\IJIDEAJAVA\ECommerceRecommendSystem\recommender\OfflineRecommender\src\main\resources" />
-      <recent name="D:\MyOwnCodes\IJIDEAJAVA\ECommerceRecommendSystem\recommender\StatisticsRecommender\src\main\resources" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -179,13 +97,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.StatisticsRecommender">
-    <configuration name="ALSTrainer" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.pcy.offline.ALSTrainer" />
-      <module name="OfflineRecommender" />
+  <component name="RunManager" selected="Application.ContentRecommender">
+    <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.pcy.kafkastream.Application" />
+      <module name="KafkaStreaming" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.pcy.offline.*" />
+          <option name="PATTERN" value="com.pcy.kafkastream.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -193,12 +111,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.pcy.kafkastream.Application" />
-      <module name="KafkaStreaming" />
+    <configuration name="ContentRecommender" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.pcy.content.ContentRecommender" />
+      <module name="ContentRecommender" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.pcy.kafkastream.*" />
+          <option name="PATTERN" value="com.pcy.content.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -247,11 +165,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ContentRecommender" />
         <item itemvalue="Application.OnlineRecommender" />
         <item itemvalue="Application.StatisticsRecommender" />
         <item itemvalue="Application.OfflineRecommender" />
         <item itemvalue="Application.Application" />
-        <item itemvalue="Application.ALSTrainer" />
       </list>
     </recent_temporary>
   </component>
@@ -270,7 +188,7 @@
       <workItem from="1593364043720" duration="858000" />
       <workItem from="1593398573476" duration="11192000" />
       <workItem from="1593478991517" duration="10304000" />
-      <workItem from="1593490299683" duration="12075000" />
+      <workItem from="1593490299683" duration="14401000" />
     </task>
     <servers />
   </component>

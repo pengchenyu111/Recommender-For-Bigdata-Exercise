@@ -10,6 +10,7 @@
         <module name="businessServer" />
         <module name="OfflineRecommender" />
         <module name="KafkaStreaming" />
+        <module name="ContentRecommender" />
         <module name="StatisticsRecommender" />
         <module name="OnlineRecommender" />
       </profile>
