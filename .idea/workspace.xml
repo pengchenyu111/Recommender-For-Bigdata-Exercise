@@ -2,14 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8d9ea673-c435-4ee8-8fdf-91e10f453189" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/recommender/ContentRecommender/ContentRecommender.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/recommender/ContentRecommender/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/recommender/ContentRecommender/src/main/resources/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/recommender/ContentRecommender/src/main/scala/com/pcy/content/ContentRecommender.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recommender/ItemCFRecommender/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recommender/ItemCFRecommender/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recommender/ItemCFRecommender/src/main/scala/com/pcy/itemcf/ItemCFRecommender.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/scala_compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/scala_compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/businessServer/target/tomcat/logs/access_log.2020-06-30" beforeDir="false" afterPath="$PROJECT_DIR$/businessServer/target/tomcat/logs/access_log.2020-06-30" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/recommender/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/recommender/pom.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -64,7 +62,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/recommender/ContentRecommender/src/main/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/recommender/ItemCFRecommender/src/main/resources" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -78,11 +76,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\MyOwnCodes\IJIDEAJAVA\ECommerceRecommendSystem\recommender\ItemCFRecommender\src\main\resources" />
       <recent name="D:\MyOwnCodes\IJIDEAJAVA\ECommerceRecommendSystem\recommender\ContentRecommender\src\main\resources" />
       <recent name="D:\MyOwnCodes\IJIDEAJAVA\ECommerceRecommendSystem" />
       <recent name="D:\MyOwnCodes\IJIDEAJAVA\ECommerceRecommendSystem\recommender\KafkaStreaming\src\main\resources" />
       <recent name="D:\MyOwnCodes\IJIDEAJAVA\ECommerceRecommendSystem\recommender\OnlineRecommender\src\main\resources" />
-      <recent name="D:\MyOwnCodes\IJIDEAJAVA\ECommerceRecommendSystem\recommender\OfflineRecommender\src\main\resources" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -97,13 +95,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ContentRecommender">
-    <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.pcy.kafkastream.Application" />
-      <module name="KafkaStreaming" />
+  <component name="RunManager" selected="Application.ItemCFRecommender">
+    <configuration name="ContentRecommender" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.pcy.content.ContentRecommender" />
+      <module name="ContentRecommender" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.pcy.kafkastream.*" />
+          <option name="PATTERN" value="com.pcy.content.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -111,12 +109,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ContentRecommender" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.pcy.content.ContentRecommender" />
-      <module name="ContentRecommender" />
+    <configuration name="ItemCFRecommender" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.pcy.itemcf.ItemCFRecommender" />
+      <module name="ItemCFRecommender" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.pcy.content.*" />
+          <option name="PATTERN" value="com.pcy.itemcf.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -165,11 +163,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ItemCFRecommender" />
         <item itemvalue="Application.ContentRecommender" />
         <item itemvalue="Application.OnlineRecommender" />
         <item itemvalue="Application.StatisticsRecommender" />
         <item itemvalue="Application.OfflineRecommender" />
-        <item itemvalue="Application.Application" />
       </list>
     </recent_temporary>
   </component>
@@ -188,7 +186,7 @@
       <workItem from="1593364043720" duration="858000" />
       <workItem from="1593398573476" duration="11192000" />
       <workItem from="1593478991517" duration="10304000" />
-      <workItem from="1593490299683" duration="14401000" />
+      <workItem from="1593490299683" duration="16324000" />
     </task>
     <servers />
   </component>

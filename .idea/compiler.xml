@@ -11,6 +11,7 @@
         <module name="OfflineRecommender" />
         <module name="KafkaStreaming" />
         <module name="ContentRecommender" />
+        <module name="ItemCFRecommender" />
         <module name="StatisticsRecommender" />
         <module name="OnlineRecommender" />
       </profile>
